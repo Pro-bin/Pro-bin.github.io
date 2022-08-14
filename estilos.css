@@ -87,6 +87,13 @@ nav a{
   border-style: solid;
   position: absolute;
   right: 50px;
-  bottom: -250px;
+  bottom: -700px;
   
+}
+
+.bin {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22 rem;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
 }
